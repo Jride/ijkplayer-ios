@@ -1,5 +1,5 @@
 # -----
-build/
+# build/
 ffmpeg-temp/
 android/ffmpeg-*
 android/openssl-*
