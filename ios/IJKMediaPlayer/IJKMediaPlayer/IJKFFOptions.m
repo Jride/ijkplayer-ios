@@ -43,15 +43,11 @@
     [options setPlayerOptionIntValue:960    forKey:@"videotoolbox-max-frame-width"];
     [options setPlayerOptionIntValue:1      forKey:@"mediacodec"];
   
-    [options setPlayerOptionValue:@"rtsp" forKey:@"protocol_whitelist"];
     [options setPlayerOptionIntValue:0      forKey:@"packet-buffering"];
     [options setPlayerOptionValue:@"ext" forKey:@"sync"];
   
-  
     [options setFormatOptionIntValue:0                  forKey:@"auto_convert"];
     [options setFormatOptionIntValue:1                  forKey:@"reconnect"];
-//    [options setFormatOptionValue:@"nobuffer"          forKey:@"fflags"];
-//    [options setFormatOptionValue:@"direct"          forKey:@"avioflags"];
     [options setFormatOptionIntValue:0                  forKey:@"max_delay"];
     [options setFormatOptionIntValue:0                  forKey:@"reorder_queue_size"];
     [options setFormatOptionIntValue:1                  forKey:@"flush_packets"];
